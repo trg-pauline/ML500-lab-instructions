@@ -58,7 +58,7 @@ Now that the setup is done in `jukebox/4-metrics/1-trustyai_setup.ipynb`, we wil
 
     After we introduce a drift, come back here so we can observe the metrics by querying Prometheus and create a new dashboard in Grafana!📈📉
 
-2. Go to `OpenShift Console` in `Developer view` > `Observe` > `Metrics`. Select `<USER_NAME>-test` project from the top and run the below query to visualize the metrics:
+2. Go to `OpenShift Console` in `Developer` view > `Observe` > `Metrics`. Select `<USER_NAME>-test` project from the top and run the below query to visualize the metrics:
 
     ```bash
     trustyai_meanshift{subcategory=~"danceability|acousticness"}
