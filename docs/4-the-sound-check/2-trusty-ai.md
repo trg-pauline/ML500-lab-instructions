@@ -67,7 +67,7 @@ Data drift in this context is like trying to write a hit song based on old trend
 
 ## Configure TrustyAI for Model Bias
 
-Ensuring that your models are fair and unbiased is a crucial part of establishing trust in your models amongst your users. While fairness can be explored during model training, it is only during deployment that your models have exposure to the outside world. It does not matter if your models are unbiased on the training data, if they are dangerously biased over real-world data, and therefore it is absolutely crucial to monitor your models for fairness during real-world deployments.
+Ensuring that your models are fair and unbiased is a crucial part of establishing trust in your models amongst your users. While fairness can be explored during model training, it is only during deployment that your models have exposure to the outside world. It does not matter if your models are unbiased on the training data if they are dangerously biased on real-world data, and therefore it is absolutely crucial to monitor your models for fairness during real-world deployments.
 
 In our case, we will take a feature of our data (`is_explicit`) and see if the model is biased towards a given country (let's say `France`) when the songs are explicit. 
 
